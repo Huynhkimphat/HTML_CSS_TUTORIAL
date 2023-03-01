@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        ul {
+            height: 2000px;
+        }
+        /*.header {
+            width: 100%;
+            height: 42px;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+        }*/
+    </style>
+</head>
+
+<body>
+    <!-- Content: Position -->
+    <!-- 1.Relative -->
+    <h1>Position</h1>
+    <!-- 2.Absolute -->
+    <div class='box'>
+        <div class='box-child'></div>
+    </div>
+    <!-- 3.Fixed -->
+    <div class='header'></div>
+    <ul>
+        <li>Relative</li>
+        <!-- vị trí tương đối: lấy chính mình làm gốc toạ độ => ko phụ thuộc vào bất cứ thằng nào cả -->
+        <!-- h1 {
+            position: relative;
+            top: 100px;
+            /*trùng thì đè lên chứ ko đẩy content xuống */
+        } -->
+        <li>Absolute</li>
+        <!-- vị trí tuyệt đối: Phụ thuộc vào thẻ cha gần nhất có thuộc tính position=> lấy thằng cha làm gốc toạ độ -->
+        <!-- dùng khi muốn thằng con xoay xung quanh thằng cha  -->
+        <!-- .box {
+            width: 100%;
+            height: 120px;
+            background-color: #333;
+            position: relative;
+        }
+        
+        .box-child {
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        } -->
+        <li>Fixed</li>
+        <!-- vị trí phụ thuộc vào cửa sổ trình duyệt => fixed -->
+        <li>Sticky</li>
+    </ul>
+
+
+</body>
+
+</html>

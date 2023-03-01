@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.course-item {
+    background-color: orange;
+    height: 260px;
+}
+
+h1 {
+    color: #fff;
+    line-height: 260px;
+    margin: 0;
+}
+
+.category {
+    background-color: green;
+}
